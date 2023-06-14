@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5031834701771083576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5031834701771083582}
+  - component: {fileID: 5031834701771083581}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5031834701771083582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5031834701771083576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5031834701771083581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5031834701771083576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b97728e502374589b13678846a674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myMixer: {fileID: 24100000, guid: 6907c45f3fd8b30479beb8ca2e371d88, type: 2}
+  currentMusicObject: {fileID: 0}
+  sfxObject: {fileID: 4373141484913155299, guid: b348810d11d9f304ab99b47018607477, type: 3}
+  musicObject: {fileID: 4373141484913155299, guid: a825b5af42fda1c469355ae324f5d7ab, type: 3}
+  soundVolume: 1
+  musicVolume: 1
+  loseSound: {fileID: 8300000, guid: 818228bfc3867f8408bb62f6b8c4bf7a, type: 3}
+  jumpSound: {fileID: 8300000, guid: 97344808f19687f439d9c2875641ea2d, type: 3}
+  collectSound: {fileID: 8300000, guid: 06cedf7eb7016f54cae91c16c988586e, type: 3}
+  coinSound: {fileID: 8300000, guid: b7fc4511017ac2b4496d883869004a12, type: 3}
+  winSound: {fileID: 8300000, guid: bfc6eaac7c66ba34687fef57f5da0db5, type: 3}
+  hitSound: {fileID: 8300000, guid: 2fad8d467b7c57748927d888d2674110, type: 3}
+  musicSound: {fileID: 8300000, guid: f56fb387a6d7f814f9f7660796e3ea86, type: 3}
